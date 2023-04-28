@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.paginate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paginate li{
+    width:auto ;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid darkgray;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.paginate li:hover{
+    background-color: darkgray;
+    color:white;
+}
